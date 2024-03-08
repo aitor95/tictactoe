@@ -48,7 +48,7 @@ export default function Board () {
       </section>
       <section className='board__info'>
         <h1>Tres en raya</h1>
-        <p>La primera persona que alinee tres símbolos en una línea gana.</p>
+        <p>La primera persona que alinee tres símbolos, gana!</p>
         <section className='board__turn'>
           <div>
             <p>Turno de:</p>
@@ -60,7 +60,6 @@ export default function Board () {
         </section>
         <button className='button' onClick={resetGame}>Comenzar de nuevo</button>
       </section>
-      <WinnerModal resetGame={resetGame} winner={winner} />
       <footer>
         <p>
           Diseñado por
@@ -73,6 +72,7 @@ export default function Board () {
           Maciej Biel
         </a>
       </footer>
+      <WinnerModal resetGame={resetGame} winner={winner} />
     </main>
   )
 }

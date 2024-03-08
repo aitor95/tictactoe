@@ -5,6 +5,7 @@ const TURNS = {
   X: Cross,
   O: Circle
 }
+
 const WINNER_CONDITIONS = [
   [0, 1, 2],
   [3, 4, 5],

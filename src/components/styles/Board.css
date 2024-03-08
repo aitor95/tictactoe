@@ -46,3 +46,19 @@
   gap: 10px;
   pointer-events: none;
 }
+
+@media (width <= 800px) {
+  .board {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .board__info{
+    align-items: center;
+    max-width: 300px;
+    gap: 10px;
+  }
+}

@@ -22,3 +22,12 @@
   background-color: #22242A;
   padding: 20px;
 }
+
+@media (width <= 800px) { 
+
+  .modal{
+    width: 350px;
+    height: 250px;
+  }
+
+}
