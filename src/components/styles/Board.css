@@ -1,0 +1,48 @@
+.board {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 60px;
+}
+
+.board__table{
+  background-color: #1B1E22;
+  padding: 20px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:20px;
+
+  & button {
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.board__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  
+  & h1 {
+    text-transform: uppercase;
+  }
+  
+  & > p {
+    color: #5f6061;
+  }
+}
+
+.board__turn {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.board__turn__info {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  pointer-events: none;
+}

@@ -1,0 +1,17 @@
+.cell {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #363941;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  cursor: pointer;
+  border: 1px solid #363941;
+}
+
+
+.is_selected {
+  border-color: #4894fd;
+}
