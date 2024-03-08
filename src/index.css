@@ -45,3 +45,23 @@ button:hover{
   background-color: #1354af;
   transition: all 300ms ease-in-out;
 }
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #5f6061;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  & a {
+    text-decoration: none;
+    color: #1777FF;
+  }
+}

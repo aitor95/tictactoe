@@ -61,6 +61,18 @@ export default function Board () {
         <button className='button' onClick={resetGame}>Comenzar de nuevo</button>
       </section>
       <WinnerModal resetGame={resetGame} winner={winner} />
+      <footer>
+        <p>
+          Diseñado por
+        </p>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://dribbble.com/shots/18581013-Tic-Tac-Toe'
+        >
+          Maciej Biel
+        </a>
+      </footer>
     </main>
   )
 }
